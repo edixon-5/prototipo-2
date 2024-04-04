@@ -5,4 +5,3 @@ setTimeOut(function() {
    document.querySelector('.Content2').style.display = 'block';
 }, 2000);
 };
-  
