@@ -103,6 +103,7 @@ text-align: left;
  z-index: 9999;
  overflow: auto;
 }
+/* hace que la el fondo sea blanco transparante de 0.8 */
 .loading-spinner {
  border: 0.4em solid #f3f3f3;
  border-top: 0.4em solid #5c95ff;
@@ -111,10 +112,13 @@ text-align: left;
  height: 5em;
  animation: spin 1s linear;
 }
+/* añade la barra con la parte blanca y la parte que se mueve en azul */
 @keyframes spin {
  0% { transform: rotate(0deg);}
  100% { transform: rotate(360deg);}
 }
+/* hace que se mueva la parte azul */
 .content {
  display: none;
 }
+/* hace que el contenido se vea invisible hasta que se carge */
