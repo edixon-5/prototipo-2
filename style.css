@@ -106,6 +106,7 @@ text-align: left;
 .loading-spinner {
  border: 0.4em solid #f3f3f3;
  border-top: 0.4em solid #5c95ff;
+ border-radius: 50%;
  width: 5em;
  height: 5em;
  animation: spin 1s linear;

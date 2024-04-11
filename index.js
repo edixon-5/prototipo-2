@@ -3,5 +3,5 @@ win.onload= function() {
 setTimeOut(function() {
    document.querySelector('.Loading-screen').style.display = 'none';
    document.querySelector('.Content2').style.display = 'block';
-}, 2000);
+}, 1000);
 };
