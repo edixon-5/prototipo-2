@@ -4,6 +4,11 @@
     box-sizing: border-box;
     text-decoration:none;
     list-style:none;
+  
+}
+
+header{
+    display:flex;
 }
 
 body{
@@ -16,6 +21,7 @@ body{
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 
 .menu{
@@ -23,24 +29,35 @@ body{
     float:left;
     background-color:white;
 }
+
+/*esto es para los enlaces*/
 .navbar ul li a{
     color:black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: relative;
+    position: relative;  
     
 }
 
+/*esto es para que aparesca el color al momento de pasar el mouse por los links*/
 
 ul li a:hover{
     color:beige;
 }
 
-h1{
-    padding: 30px;
+h2{
+    padding-top: 50px;
+    color:black;
+    display: flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h1{
+    padding-top:60px;
+}
+
+/*el div que tiene la clase content donde estan los enlaces*/
 .content{
-    background-color:#5d9b9b;
+    background-color:white;
     padding:1em;
 }
 
@@ -50,7 +67,7 @@ h1{
     color:white;
 }
 
-
+/*barra de navegación*/
 .navbar a{
     color: rgb(5, 36, 41);
   font-size: 20px;
@@ -67,7 +84,7 @@ h1{
   height: 4px;
   bottom: 0;
   left:0;
-  background-color:pink;
+  background-color:#c5c6c7;
   transform-origin: bottom right;
   transition:transform 0.6s ease-out;
 }
@@ -77,48 +94,46 @@ h1{
   transform-origin: bottom left;
 }
 
-img{
-    padding:20px;
+/*boton de empezar*/
+.boton{
+    border-bottom: 9px;
+    color:black;
+    background-color: yellow;
 }
-.text-box {
-margin:0 auto;
-width:auto;
-height:auto;
-position: relative;
-background-color: rgb(154, 166, 167);
+
+
+/*esto es la parte de los cuadros de que aprenderan*/
+.box {
+   height: 290px;
+   width:190px;
+   background-color: yellow;
+   font-size: medium;
+
 }
-.textoverwriter {
-text-align: left;
+.box1{
+    height: 290px;
+    width:190px;
+    background-color: yellow;
+    font-size: medium;
 }
-.loading-screen {
- position: fixed;
- top: 0;
- left: 0;
- width: 100%;
- height: 100%;
- background-color: rgba(255, 255, 255, 0.8);
- display: flex;
- justify-content: center;
- align-items: center;
- z-index: 9999;
- overflow: auto;
+.box2{
+    height: 290px;
+    width:190px;
+    background-color: yellow;
+    font-size: medium;
 }
-/* hace que la el fondo sea blanco transparante de 0.8 */
-.loading-spinner {
- border: 0.4em solid #f3f3f3;
- border-top: 0.4em solid #5c95ff;
- border-radius: 50%;
- width: 5em;
- height: 5em;
- animation: spin 1s linear;
-}
-/* añade la barra con la parte blanca y la parte que se mueve en azul */
-@keyframes spin {
- 0% { transform: rotate(0deg);}
- 100% { transform: rotate(360deg);}
-}
-/* hace que se mueva la parte azul */
-.content {
- display: none;
-}
-/* hace que el contenido se vea invisible hasta que se carge */
+
+    footer{
+        background-color:rgb(235, 198, 198);
+        padding:80px;
+       
+    }
+
+    .ofrece{
+        display: flex;
+    }
+
+    p{
+        display: flex;
+        font-family:cursive, sans-serif;
+    }
