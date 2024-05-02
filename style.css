@@ -137,3 +137,11 @@ h1{
         display: flex;
         font-family:cursive, sans-serif;
     }
+/* Esto es para que las imagenes se marquen de color blanco a pasar el mouse.*/
+.brillo{
+    background-color: white;
+    display: inline-block;
+}
+.brillo img:hover{
+    opacity: .5;
+}
