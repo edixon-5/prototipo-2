@@ -136,4 +136,12 @@ h1{
     padding:15px;
 }
 
-
+.fondo1{
+    background-color: rgb(221, 214, 214);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+    height: auto;
+    padding: 1em;
+}
