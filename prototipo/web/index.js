@@ -54,3 +54,11 @@ function barajearCartas() {
 }
 
 crearCartas();
+const squaries = document.querySelectorAll('.squary');
+
+squaries.forEach(squary => {
+  squary.addEventListener('click', () => {
+    const href = squary.getAttribute('id');
+    window.location.href = `./${href}.html`;
+  });
+});

@@ -16,6 +16,7 @@ body{
 }
 
 
+
 /*esto es para los enlaces*/
 .navbar ul li a{
     color:black;
@@ -70,7 +71,7 @@ h1{
   height: 4px;
   bottom: 0;
   left:0;
-  background-color:#c5c6c7;
+  background-color:#2d2d2d;
   transform-origin: bottom right;
   transition:transform 0.6s ease-out;
 }
@@ -134,6 +135,7 @@ h1{
     font-size:24px;
     text-align: center;
     padding:15px;
+    cursor:pointer;
 }
 
 .fondo1{
@@ -145,3 +147,74 @@ h1{
     height: auto;
     padding: 1em;
 }
+
+.darEspacio{
+    margin-bottom:50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+  
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 2px solid #ccc;
+}
+  
+.selected {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.header-bar {
+    background-color: lightgrey;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-bar .navbar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-bar .navbar a {
+    margin-right: 10px;
+  }
+  .squary {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+  }
+  
+  .squary:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .squary a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .squary a:hover {
+    color: #666;
+  }
