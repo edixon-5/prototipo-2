@@ -1,0 +1,394 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration:none;
+    list-style:none;
+  
+}
+
+
+body{
+    text-align:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 25px;
+    padding:20px;
+
+}
+
+/*esto es para que aparesca el color al momento de pasar el mouse por los links*/
+
+ul li a:hover{
+    color:beige;
+}
+
+
+
+.logo{
+    color:black;
+    align-items: left;
+}
+
+h1{
+    padding-top:60px;
+}
+
+.boton{
+    box-sizing: border-box;
+    border-radius: 10px;
+    color:white;
+}
+
+/*barra de navegación*/
+.navbar{
+   display: flex;
+   justify-content: right;
+}
+
+.navbar a{
+    color: rgb(5, 36, 41);
+  font-size: 20px;
+  position: relative;
+  font-family:Arial, Helvetica, sans-serif;
+ margin-right:5px;
+}
+
+.navbar a:after{
+    content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: 0;
+  left:0;
+  background-color:#c5c6c7;
+  transform-origin: bottom right;
+  transition:transform 0.6s ease-out;
+}
+
+.navbar a:hover:after{
+    transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+.logo{
+        display: flex;
+       padding:5px;
+       margin-right:120px;
+    }
+
+
+a{
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+
+
+
+
+/*formulario de sesion*/
+
+.contorno {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+/*juego de cartas*/
+
+
+.card {
+    width: 100px;
+    height: 90px;
+    background-color: rgb(28, 28, 141);
+    border: 1px solid #666;
+    margin: 10px;
+    display: inline-block;
+  }
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#color-display {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.box {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+
+/*colores*/
+.box:hover {
+    opacity: 0.8;
+}
+
+#message {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+
+  
+  /* Estilos para la sección "Acerca de" */
+  .about {
+    background-color: #F0F0F0; /* Color de fondo de la sección */
+    padding: 30px 0;
+  }
+
+  
+  .about h2 {
+    color: #333; /* Color del título de la sección */
+  }
+  
+  .about p {
+    line-height: 1.5; /* Separación entre líneas de texto */
+  }
+  
+ 
+  
+  /* Estilos para la sección de contacto */
+  .contact {
+    background-color: #43a5be; /* Color de fondo de la sección */
+    padding: 40px 0;
+  }
+  
+  .contact h2 {
+    color: #333; /* Color del título de la sección */
+  }
+  
+  .contact form {
+    width: 50%; /* Ancho del formulario */
+    margin: 0 auto; /* Centrar el formulario */
+    padding: 20px; /* Espacio interior del formulario */
+    border: 1px solid #CCC; /* Borde gris claro alrededor del formulario */
+  }
+  
+  .contact label {
+    display: block; /* Mostrar las etiquetas en una nueva línea */
+    margin-bottom: 5px; /* Espacio entre etiquetas y campos de entrada */
+  }
+  
+
+    .contact textarea {
+        width: 100%; /* Ancho completo de los campos de entrada */
+        padding: 10px; /* Espacio interior de los campos de entrada */
+        border: 1px solid #CCC; /* Borde gris claro alrededor de los campos de entrada*/
+      }
+  
+        
+    /* Estilo general del cuerpo */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+.principal {
+  background-color: #2d50af;
+  background-image: url(images/otros-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin:20px;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navegación */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+nav li a:hover {
+  background-color: #ddd;
+}
+
+/* Héroe */
+.hero {
+  text-align: center;
+  background-color: #f0f0f0;
+  margin:18px;
+}
+
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+
+
+
+.hero p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.hero a.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero a.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Cursos */
+.courses {
+  margin-top: 50px;
+}
+
+.courses h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.courses .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.courses .col-md-4 {
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.courses .card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.head{
+  display:flex;
+  justify-content: right;
+}
+
+
+
+.card{
+  display:incline-block;
+  border-radius:40px;
+  gap:10px;
+  background-color: #0056b3;
+  width: 250px; /* Ajusta el ancho según tus necesidades */
+  height: 220px;
+  border-radius: 10px; /* Añade bordes redondeados */
+}
+
+.courses .card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-radius: 40px;
+}
+
+.courses .card p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.courses .card a.btn {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+}
+
+.courses .card a.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Pie de página */
+footer {
+  background-color: #f0f0f0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.imagen{
+  margin:10px;
+  padding:8px;
+}
+
+
